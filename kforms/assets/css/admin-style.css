@@ -1,0 +1,90 @@
+#kforms-options-container {
+	margin: 10px 0;
+	position:relative;
+	z-index: 0;
+}
+#kforms-options-container #kforms-options-header {
+	height: 60px;
+	background:#dfdfdf url("../../../../../wp-admin/images/gray-grad.png") repeat-x left top;
+	border: 1px solid #ccc;
+	border-top-left-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-right-radius: 6px;
+	-moz-border-radius-topright: 6px;
+}
+#kforms-options-container #kforms-options-header .logo {
+	float: left;
+	margin:5px 20px;
+}
+#kforms-options-container #kforms-options-header .logo h2 {
+	font-style:normal;
+	font-size: 22px;
+	line-height: 26px;
+}
+#kforms-options-container #kforms-options-main {
+	background-color: #f1f1f1;
+	border-left: 1px solid #d8d8d8;
+	border-right: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+}
+#kforms-options-container #kforms-options-nav {
+	float: left;
+	position: relative;
+	z-index: 9999;
+	width: 15%;
+}
+#kforms-options-container #kforms-options-nav li {
+	margin-bottom:0
+}
+#kforms-options-container #kforms-options-nav ul li a:link, #kforms-options-nav ul li a:visited {
+	display: block;
+	padding: 10px 10px 10px 15px;
+	font-family: Georgia, Serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #797979;
+	border-bottom: 1px solid #d8d8d8;
+}
+#kforms-options-container #kforms-options-nav ul li.current a, #kforms-options-nav ul li a:hover {
+	color: #21759b;
+	background-color: #fff;
+}
+#kforms-options-container #kforms-options-content {
+	float: left;
+	min-height: 560px;
+	margin-left: -1px;
+	padding: 0;
+	background-color: #fff;
+	border-left: 1px solid #d8d8d8;
+	width: 85%;
+}
+
+#kforms-options-container .group {
+	padding: 20px;
+}
+#kforms-options-container .group h2 {
+	display:none;
+	border-bottom:3px solid #e7e7e7
+}
+
+/* Bottom Section */
+
+#kforms-options-container .button-primary {
+	float:right;
+}
+#kforms-options-container .kforms-options-admin {
+	background: #f3f3f3;
+	border:solid #ccc;
+	border-width:0px 1px 1px 1px;
+	padding: 10px 20px 0px 20px;
+	height: 35px;
+	text-align: right;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
